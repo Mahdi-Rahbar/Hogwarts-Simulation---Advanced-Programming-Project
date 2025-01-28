@@ -144,7 +144,7 @@ namespace Hogwarts
             else if (Student.studentlist[AllowedPersons.IStudent].Letters[0] != null)
             {
                 TakeTicket();
-                earlierTime = ticket_time.AddSeconds(-10);
+                earlierTime = ticket_time.AddSeconds(-20);
             }
         }
     }
